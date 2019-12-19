@@ -1,0 +1,12 @@
+{
+  "coccocMusic": {
+    "mobile": {
+      "api": {
+        "prefix": "/api",
+        "version": "/v2",
+        "homeScreen": "/home",
+        "trendingCategories": "/trending-by-categories"
+      }
+    }
+  }
+}
