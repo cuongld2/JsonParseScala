@@ -1,8 +1,6 @@
 package donald
 
-import java.io.{File, FileInputStream}
-
-import donald.models.{Api, CoccocMusic, Environments, Mobile}
+import donald.models.{Environments}
 import play.api.libs.json.Json
 
 import scala.io.Source
