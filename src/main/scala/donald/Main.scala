@@ -11,8 +11,8 @@ import scala.io.Source
  * Hello world!
  *
  */
-object Debugger extends App {
-  val filename = System.getProperty("user.dir") + "\\src\\main\\resources\\env.json"
+object Main extends App {
+  val filename = System.getProperty("user.dir") + "/src/main/resources/env.json"
   val bufferSource=Source.fromFile(filename)
   try {
     val source:String=bufferSource.getLines.mkString

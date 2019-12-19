@@ -43,7 +43,7 @@ object CoccocMusic{
 
 object Environments{
   implicit val coccocMusicReads: Reads[Environments] =
-    (__ \ "coccocMusic").read[CoccocMusic].map(Environments.apply)
+    (__ \ "music").read[CoccocMusic].map(Environments.apply)
 }
 
 
